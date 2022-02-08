@@ -34,6 +34,7 @@ public class ArrayListCoches {
 
 	public void ordenarModelo() {
 		
+		listaCoches.sort(null);
 		
 	}
 	

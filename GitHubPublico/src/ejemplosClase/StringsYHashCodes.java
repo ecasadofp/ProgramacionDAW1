@@ -8,7 +8,7 @@ public class StringsYHashCodes {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		HashSet<String> palabras = new HashSet();
+		HashSet<String> palabras = new HashSet<>();
 
 		String s1 = "uno";
 		String s1bis = "uno";
@@ -23,7 +23,7 @@ public class StringsYHashCodes {
 
 		for (String s : palabras)
 			System.out.println(s);
-
+		
 		System.out.println(s1 == s1bis);
 		System.out.println(s1.equals(s1bis));
 
