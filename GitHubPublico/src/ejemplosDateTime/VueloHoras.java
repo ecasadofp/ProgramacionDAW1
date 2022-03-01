@@ -10,10 +10,10 @@ import java.time.format.DateTimeFormatter;
 public class VueloHoras {
 
 	public static void main(String[] args) {
-		DateTimeFormatter format = DateTimeFormatter.ofPattern("MMM d yyyy  hh:mm a");
+		DateTimeFormatter format = DateTimeFormatter.ofPattern("MMMM dd yyyy  hh:mm a");
 
 		// Salida de San Francisco el 20 de julio de 2013, a las 7:30 p.m.
-		LocalDateTime leaving = LocalDateTime.of(2013, Month.JULY, 20, 19, 30);
+		LocalDateTime leaving = LocalDateTime.of(2013, Month.JULY, 2, 19, 30);
 		ZoneId leavingZone = ZoneId.of("America/Los_Angeles"); 
 		ZonedDateTime departure = ZonedDateTime.of(leaving, leavingZone);
 
