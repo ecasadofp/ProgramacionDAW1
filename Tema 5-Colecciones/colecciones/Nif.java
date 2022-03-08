@@ -1,4 +1,4 @@
-package Tema5Colecciones;
+package colecciones;
 
 
 // Nif.java: una clase Nif para representar N.I.F.s

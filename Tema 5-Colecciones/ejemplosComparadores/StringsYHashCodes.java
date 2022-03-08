@@ -1,4 +1,4 @@
-package ejemplosClase;
+package ejemplosComparadores;
 
 import java.util.Scanner;
 import java.util.HashSet;

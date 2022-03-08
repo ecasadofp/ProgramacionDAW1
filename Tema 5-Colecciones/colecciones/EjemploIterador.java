@@ -1,4 +1,4 @@
-package Tema5Colecciones;
+package colecciones;
 
 import java.util.Iterator;
 import java.util.LinkedList;

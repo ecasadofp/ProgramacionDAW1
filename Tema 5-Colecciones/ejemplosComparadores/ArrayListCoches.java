@@ -1,4 +1,4 @@
-package ejemplosClase;
+package ejemplosComparadores;
 
 import java.util.ArrayList;
 import java.util.Collections;

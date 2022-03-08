@@ -1,4 +1,4 @@
-package ejemplosClase;
+package ejemplosComparadores;
 
 public class Coche implements Comparable<Coche>{
 	
