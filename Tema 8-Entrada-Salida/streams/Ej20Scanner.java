@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class EjScanner {
+public class Ej20Scanner {
 
 	public static void main(String args[]) {
 
