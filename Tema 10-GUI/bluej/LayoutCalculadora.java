@@ -1,16 +1,17 @@
+package bluej;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class LayoutCalculadora2 {
+public class LayoutCalculadora {
 
 	public static void main(String[] args) {
 
-		new LayoutCalculadora2();
+		new LayoutCalculadora();
 		
 	}
 	
-	public LayoutCalculadora2() {
+	public LayoutCalculadora() {
 		
 		JFrame marco = new JFrame("Distintos layouts");
 				
@@ -19,11 +20,6 @@ public class LayoutCalculadora2 {
 		JLabel et2 = new JLabel("Segunda");
 		JLabel et3 = new JLabel("Tercera");
 		JLabel et4 = new JLabel("Cuarta");
-		
-		et1.setVerticalAlignment(SwingConstants.TOP);
-		et2.setVerticalAlignment(SwingConstants.TOP);
-		et3.setVerticalAlignment(SwingConstants.TOP);
-		et4.setVerticalAlignment(SwingConstants.TOP);
 		
 		JTextField tf1 = new JTextField(10);
 		JTextField tf2 = new JTextField(10);
@@ -38,27 +34,17 @@ public class LayoutCalculadora2 {
 		JPanel entradas = new JPanel();
 		JPanel botones = new JPanel();
 
-		entradas.setLayout(new GridLayout(4, 1, 5, 5));
+		entradas.setLayout(new GridLayout(4, 2, 5, 5));
 		entradas.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
 		
-		JPanel panEt1 = new JPanel();
-		JPanel panEt2 = new JPanel();
-		JPanel panEt3 = new JPanel();
-		JPanel panEt4 = new JPanel();
-		
-		panEt1.add(tf1);
-		panEt2.add(tf2);
-		panEt3.add(tf3);
-		panEt4.add(tf4);
-		
 		entradas.add(et1);
-		entradas.add(panEt1);
+		entradas.add(tf1);
 		entradas.add(et2);
-		entradas.add(panEt2);
+		entradas.add(tf2);
 		entradas.add(et3);
-		entradas.add(panEt3);
+		entradas.add(tf3);
 		entradas.add(et4);
-		entradas.add(panEt4);
+		entradas.add(tf4);
 		
 		marco.add(entradas);
 		
