@@ -1,4 +1,4 @@
-package ejemplosClase;
+package ejemplos;
 
 
 import javax.swing.JFrame;

@@ -1,12 +1,12 @@
-package ejemplosClase;
+package ejemplos;
 
 
-import javax.swing.JFrame;
-import javax.swing.JButton;
-import javax.swing.SwingUtilities;
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
 
 public class FrameColores {
 
