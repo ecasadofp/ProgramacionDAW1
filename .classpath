@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Tema 10-GUI"/>
+	<classpathentry kind="src" path="Tema 5-Colecciones"/>
+	<classpathentry kind="src" path="Tema 7-Clases de utilidad"/>
+	<classpathentry kind="src" path="Tema 8-Herencia e Interfaces"/>
+	<classpathentry kind="src" path="Tema 9-Entrada-Salida"/>
+	<classpathentry kind="src" path="Tema 11-XML"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
