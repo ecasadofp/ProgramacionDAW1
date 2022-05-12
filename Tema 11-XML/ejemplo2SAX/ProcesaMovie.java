@@ -16,9 +16,9 @@ public class ProcesaMovie {
 
 		ArrayList<Movie> pelis = new ArrayList<>();
 		
-		File archivo = new File("ejemplo2SAX/src/movie_1.xml");
+		File archivo = new File("Tema 11-XML/movie_1.xml");
 		SAXParserFactory spf = SAXParserFactory.newInstance();
-			
+		
 		
 		try {
 			
