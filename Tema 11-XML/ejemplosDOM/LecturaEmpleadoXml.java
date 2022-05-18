@@ -32,7 +32,7 @@ public class LecturaEmpleadoXml {
 	}
 	private static String getNodo(String etiqueta, Element elem){
 		NodeList nodo = elem.getElementsByTagName(etiqueta).item(0).getChildNodes();
-		Node valornodo= (Node) nodo.item(0);
+		Node valornodo=  nodo.item(0);
 		return valornodo.getNodeValue();
 
 		/* Bastar�a una sola l�nea
